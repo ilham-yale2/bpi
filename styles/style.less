@@ -1,0 +1,1895 @@
+// old css
+
+// end of old css
+
+body{
+    width: 100%;
+}
+
+.relative{
+    position: relative;
+}
+
+@color-grey-1: #F6F6F6;
+@color-grey-2: #828282;
+@color-grey-3: #F0F0F0;
+@color-blue-1: #0C6696;
+
+
+.ndone{
+    a{
+        color: red !important;
+    }
+}
+
+.smaller-container{
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+header.header{
+    a{
+        font-weight: 600;
+        font-size: 15px;
+    }
+}
+
+.laporan{
+    input{
+        border: none;
+    }
+    input:focus{
+        box-shadow: none;
+    }
+    a{
+        display: block;
+        color: inherit;
+    }
+    .masthead_small{
+        padding-bottom: 0;
+        margin-bottom: 42px;
+        .breadcrumbz{
+            // margin-bottom: 10px;
+            ul{
+                li{
+                    display: inline-block;
+                    color: white;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .section-1-laporan{
+        padding-bottom: 200px;
+        .d-flex.search-bar-section{
+            align-items: center;
+            .serach-bar-area.relative{
+                input{
+                    border-radius: 20px;
+                    padding-left: 51px;
+                    padding-right: 60px;
+                    background: @color-grey-1;
+                    padding-top: 18px;
+                    height: 54px;
+                    font-size: 15px;
+                    padding-bottom: 18px;
+                }
+                .search-bar-icon{
+                    position: absolute;
+                    right: 30px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+            .filter-area{
+                .button-filter{
+                    background: transparent;
+                    border: none;
+                }
+            }
+        }
+        .item-area{
+            .item-container{
+                border-radius: 30px;
+                background: @color-blue-1;
+                height: 204px;
+                color: #FFFFFF;
+                padding: 26px;
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                a{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    inset: 0;
+                    z-index: 2;
+                }
+                .content-image{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    inset: 0;
+                    z-index: 1;
+                }
+                .content-paragraph{
+                    z-index: 2;
+                    align-self: flex-end;
+                    font-size: 20px;
+                    pointer-events: none;
+                }
+            }
+        }
+    }
+    .section-1-detail-csr{
+        padding-bottom: 250px;
+        .blog-area{
+            img{
+                border-radius: 16px;
+                margin-bottom: 32px;
+            }
+            .blog-title{
+                color: @color-blue-1;
+                font-size: 30px;
+                font-weight: 300;
+                margin-bottom: 40px;
+            }
+            .blog-paragraph{
+                color: @color-grey-2;
+                font-size: 15px;
+                line-height: 1.8;
+                margin-bottom: 40px;
+            }
+        }
+        .sticky-section{
+            position: sticky;
+            top: 150px;
+            background: @color-grey-1;
+            padding: 25px 33px;
+            border-radius: 30px;
+            .news-date-published{
+                color: @color-grey-2;
+                font-size: 12px;
+                margin-bottom: 13px;
+            }
+            .news-title{
+                font-size: 15px;
+                font-weight: 700;
+                color: @color-blue-1;
+                line-height: 1.3;
+            }
+        }
+    }
+}
+
+footer{
+    margin-top: 112px;
+    .footer_cta:before{
+        width: 100vw;
+        right: 0;
+        border-radius: 0;
+    }
+    .row{
+        .footer_cta-form{
+            .form-group{
+                border-radius: 20px;
+                overflow: hidden;
+                button.send-cta{
+                    font-size: 15px;
+                    padding-right: 25px;
+                    padding-left: 25px;
+                    background: #0C6696;
+                    color: white;
+                    height: 100%;
+                    top: 0;
+                    right: 0;
+                }
+            }
+        }
+        .col-lg-9{
+            .footer_menu{
+                .row{
+                    .col:hover{
+                        .footer_menu-head{
+                            color: #FD9840;
+                        }
+                    }
+                    .col.col-special.case{
+                        flex: 1 2 0;
+                    }
+                    h4{
+                        font-size: 15px;
+                        margin-bottom: 24px;
+                    }
+                    a{
+                        display: block;
+                        color: #828282;
+                        font-size: 15px;
+                    }
+                    a:hover{
+                        color: #FD9840;
+                    }
+                    .footer_menu-head{
+                        color: #0C6696;
+                    }
+                }
+            }
+        }
+    }
+}
+
+    .section-1-login{
+        height: 100vh;
+        .col-md-5.overflow-hide{
+            overflow: hidden;
+            border-top-right-radius: 50px;
+            .relative.image-container-login{
+                height: 100vh;
+                width: 50vw;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .row{
+            height: 100%;
+        }
+        .login-container{
+            max-width: 480px;
+            width: 100%;
+            align-self: center;
+            margin: 0 auto;
+            h3.login-title{
+                font-size: 30px;
+                margin-bottom: 42px;
+            }
+            input.form-control{
+                padding: 28px 20px;
+                border-radius: 12px;
+                margin-bottom: 36px;
+            }
+            .button-areas{
+                display: flex;
+                align-items: center;
+                a{
+                    font-size: 15px;
+                    color: red;
+                    font-weight: 600;
+                }
+                button{
+                    font-size: 14px;
+                    color: white;
+                    padding: 14px 48px;
+                    margin-left: auto;
+                    background: #FD9840;
+                    border: none;
+                    border-radius: 25px;
+                }
+            }
+        }
+        .login-panel{
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            .website-logo{
+                display: flex;
+                position: absolute;
+                right: 28px;
+                top: 54px;
+                align-items: center;
+                p{
+                    margin-bottom: 0;
+                    padding-right: 8px;
+                }
+                img{
+                    width: 141px;
+                    margin-top: -25px;
+                }
+            }
+        }
+    }
+
+    .laporan {
+        section.section-1-contact-us {
+            .container.mx-auto {
+                padding-bottom: 300px;
+                .col-md-6{
+                    padding-right: 40px;
+                    padding-left: 40px;
+                }
+                img.contact-us-image {
+                    width: 100%;
+                    margin-bottom: 52px;
+                    border-radius: 16px;
+                }
+
+                .contact-us-information {
+                    font-size: 15px;
+                    white-space: pre-line;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+
+                .contact-us-link {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    display: inline-block;
+                    h3 {
+                        text-decoration: underline;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+        .karir_type {
+            .d-flex.search-bar-section {
+                align-items: center;
+
+                .serach-bar-area.relative {
+                    input {
+                        border-radius: 20px;
+                        padding-left: 51px;
+                        padding-right: 60px;
+                        background: @color-grey-1;
+                        padding-top: 18px;
+                        height: 54px;
+                        font-size: 15px;
+                        padding-bottom: 18px;
+                    }
+
+                    .search-bar-icon {
+                        position: absolute;
+                        right: 30px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+
+                .filter-area {
+                    .button-filter {
+                        background: transparent;
+                        border: none;
+                    }
+                }
+            }
+        }
+
+        .section-1-gallery {
+            .container.mx-auto {
+                section.video-area.mt-4.pt-4 {
+                    padding-bottom: 300px;
+
+                    .news_box-img {
+                        margin-bottom: 48px;
+                        img{
+                            border-radius: 32px;
+                        }
+                    }
+
+                    .date {
+                        margin-bottom: 12px;
+                        font-size: 15px;
+                    }
+
+                    .title {
+                        max-width: 550px;
+
+                        h3 {
+                            font-size: 25px;
+                            color: @color-blue-1;
+                        }
+                    }
+                }
+                section.photo-area{
+                    .news_box-img {
+                        img{
+                            border-radius: 32px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-1-news {
+            padding-bottom: 200px;
+        }
+
+        .karir_recent {
+            padding-bottom: 200px;
+
+            .row.justify-content-center {
+                .card {
+                    margin-bottom: 25px;
+
+                    .card-header {
+                        position: relative;
+
+                        .btn {
+                            width: 100%;
+                            text-align: left;
+                        }
+
+                        .btn:focus {
+                            box-shadow: none;
+                            text-decoration: none;
+                        }
+
+                        .btn:hover {
+                            box-shadow: none;
+                            text-decoration: none;
+                        }
+
+                        svg {
+                            pointer-events: none;
+                            position: absolute;
+                            top: 50%;
+                            right: 24px;
+                            background: @color-grey-3;
+                            border-radius: 100%;
+                            width: 40px;
+                            height: 40px;
+                            padding: 8px;
+                            transform: translateY(-50%);
+                        }
+                    }
+
+                    .collapse,
+                    .collapsing {
+                        background: @color-grey-1;
+                    }
+                }
+            }
+        }
+
+        section.karir_recent{
+            h2{
+                margin-bottom: 24px; 
+            }
+            .container{
+                .card{
+                    border: none;
+                    .card-header{
+                        button{
+                            color: #353535;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+                    }
+                    .card-body{
+                        color: #353535;
+                        a.btn.btn_primary{
+                            display: inline-block;
+                            color: white;
+                            padding: 12px 42px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .section-revision {
+        .masthead_small {
+            padding-bottom: 0;
+            margin-bottom: 42px;
+
+            .masthead_small-text {
+                padding: 70px 0 70px;
+
+                .breadcrumbs {
+                    margin-bottom: 0;
+
+                    ul {
+                        li {
+                            text-transform: uppercase;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        section.profil_saham {
+            padding-bottom: 110px;
+
+            .row.justify-content-center {
+                h2 {
+                    margin-bottom: 8px;
+                }
+            }
+        }
+
+        section.home-welcomemsg{
+            button.readmore-button.readmore{
+                display: none;
+            }
+        }
+
+        section.profil_komisaris {
+            .row.justify-content-center {
+                .profil_komisaris-wrap {
+
+                    // .col-lg-3.col-md-6{
+                    //     width: 50%;
+                    // }
+                    .box-komisaris {
+                        .box-img {
+                            border-radius: 32px;
+                        }
+
+                        .box-text {
+                            margin-left: 0;
+                            margin-top: -65px;
+                            min-width: 87%;
+
+                            .name {
+                                font-size: 18px;
+                            }
+
+                            .pos {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .profil_komisaris-wrap.direksi {
+            .row.second-row {
+                justify-content: end;
+            }
+
+            .box-komisaris {
+                .box-text {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+            }
+        }
+
+        .profil_visimisi .generalbox:before {
+            display: none;
+        }
+
+        section.profil_location {
+            width: 100%;
+
+            .box-map {
+                border-radius: 0;
+                width: 100%;
+            }
+
+            .container {
+                // display: none;
+            }
+
+            .map-location-container {
+                max-width: none;
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        section.profil_biography {
+            .box-photo {
+                border-radius: 30px;
+                overflow: hidden;
+
+                .box-img {
+                    margin-bottom: 0;
+                    width: 100%;
+                    max-width: none;
+
+                    img {
+                        max-width: none;
+                        width: 100%;
+                    }
+                }
+
+                .box-text {
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+        }
+
+        section.tatakelola_section {
+            .row.justify-content-center {
+                .generalbox {
+                    height: 100%;
+
+                    h4 {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        section.sosial_table {
+            .row.justify-content-center {
+                .table-responsive {
+                    table.table.table-striped.pengadaan_list-table {
+                        td {
+                            vertical-align: middle;
+                            font-size: 15px;
+                        }
+
+                        td.table-title {
+                            padding-left: 28px;
+                            max-width: 480px;
+
+                            a.table-link {
+                                text-align: left;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section.section-1-news {
+            section.photo-area {
+                .news_box {
+                    img {
+                        border-radius: 30px;
+                    }
+                }
+            }
+        }
+
+        section.profil_plan {
+            .inner-box {
+                background: transparent;
+
+                p {
+                    color: white;
+                }
+            }
+        }
+
+        section.pengadaan_list{
+            .tab-content{
+                padding-top: 60px;
+            }
+        }
+    }
+    
+    section.home_gallery{
+        .slider.no-slider.owl-carousel.owl-loaded.owl-drag{
+            transform: scale(1.2);
+            .owl-stage-outer{
+                .owl-stage{
+                    .owl-item.cloned.active{
+                        .box-img{
+                        }
+                    }
+                    .owl-item.active.center{
+                        margin-top: -30px;
+                        .box-img{
+                            width: 100%;
+                        }
+                    }
+                    .owl-item.active{
+                    }
+                    .owl-item{
+                        .box-img{
+                            width: 80%;
+                            img{
+                                border-radius: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .home{
+        section.home_chart{
+            .container{
+                max-width: 1300px;
+                margin: 0 auto;
+            }
+            .home_chart-box.month::before{
+                display: none;
+            }
+            .home_chart-box.year::before{
+                display: none;
+            }
+            .chart_box{
+                // width: 100%;
+            }
+        }
+        section.news{
+            .col-lg-4.col-md-6{
+                .news_box-img{
+                    img{
+                        width: 100%;
+                        border-radius: 32px;
+                    }
+                }
+            }
+        }
+    }
+
+@media only screen and (max-width: 1370px) {
+    .home{
+        section.home_career{
+            .container{
+                padding-right: 100px;
+                padding-left: 100px;
+            }
+        }
+        section.home_chart{
+            width: 100vw !important;
+            overflow: hidden;
+            .home_chart-box.month{
+                padding: 34px 30px;
+            }
+        }
+        section.home_gallery{
+            width: 100vw;
+            overflow: hidden;
+        }
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .section-revision{
+        .masthead_small {
+            .masthead_small-text {
+                padding-top: 48px;
+                padding-bottom: 48px;
+            }
+        }
+        section.pengadaan_list{
+            .tab-content{
+                padding-top: 42px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    header.header{
+        a{
+            font-weight: 600;
+            font-size: 11px;
+        }
+    }
+    nav.header_menu-wrap{
+        text-align: center;
+    }
+    .laporan {
+        section.section-1-contact-us{
+            .container.mx-auto{
+                padding-bottom: 200px;
+                img.contact-us-image{
+                    width: 100%;
+                    margin-bottom: 52px;
+                    border-radius: 16px;
+                }
+                .contact-us-information{
+                    font-size: 15px;
+                    white-space: pre-line;
+                }
+                .contact-us-link{
+                    h3{
+                        text-decoration: underline;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        .section-1-gallery{
+            .container.mx-auto{
+                // section.photo-area{
+                //     h2{
+                //         margin-bottom: 24px;
+                //     }
+                // }
+                section.video-area.mt-4.pt-4{
+                    padding-bottom: 200px;
+                    .news_box-img{
+                        margin-bottom: 48px;
+                    }
+                    .date{
+                        margin-bottom: 12px;
+                        font-size: 15px;
+                    }
+                    .title{
+                        max-width: 550px;
+                        h3{
+                            font-size: 25px;
+                            color: @color-blue-1;
+                        }
+                    }
+                }
+            }
+        }
+        .masthead_small {
+            .masthead_small-text {
+                padding-top: 35px;
+                padding-bottom: 35px;
+            }
+        }
+
+        .section-1-detail-csr {
+            padding-bottom: 250px;
+
+            .blog-area {
+                .blog-title {
+                    color: @color-blue-1;
+                    font-size: 30px;
+                    font-weight: 300;
+                    margin-bottom: 32px;
+                }
+
+                .blog-paragraph {
+                    color: @color-grey-2;
+                    font-size: 15px;
+                    line-height: 1.8;
+                    margin-bottom: 40px;
+                }
+            }
+
+            .sticky-section {
+                position: sticky;
+                top: 100px;
+                background: @color-grey-1;
+                padding: 25px 33px;
+                border-radius: 30px;
+            }
+        }
+    }
+
+    .laporan {
+        .karir_type {
+            .container.smaller-container{
+                max-width: 650px;
+            }
+        }
+    }
+
+    .section-revision{
+        .masthead_small {
+            .masthead_small-text {
+                padding-top: 35px;
+                padding-bottom: 35px;
+            }
+        }
+    }
+    footer{
+        .row{
+            .col-lg-9{
+                .footer_menu{
+                    .row{
+                        .col.col-special.case{
+                            flex: 1 2 0;
+                        }
+                        h4{
+                            font-size: 13px;
+                        }
+                        a{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    section.profil_komisaris {
+        .row.justify-content-center {
+            .profil_komisaris-wrap {
+                h2 {
+                    margin-bottom: 10px;
+                }
+    
+                .col-lg-3.col-md-6 {
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+    
+                    .box-text {
+                        max-width: 90%;
+    
+                        .name {
+                            font-size: 16px;
+                        }
+    
+                        .pos {
+                            font-size: 12px;
+                        }
+                    }
+                }
+    
+                .box-komisaris {
+                    .box-img {
+                        // border-radius: 30px;
+                    }
+    
+                    .box-text {
+                        margin-left: 0;
+                        margin-top: -65px;
+                        min-width: 87%;
+                    }
+                }
+            }
+        }
+    }
+    header.header{
+        nav.header_menu-wrap{
+            text-align: center;
+        }
+    }
+    .home{
+        padding-top: 0;
+        section.news{
+            padding-bottom: 150px;
+            .col-lg-4.col-md-6{
+                padding-top: 16px;
+                padding-bottom: 16px;
+            }
+        }
+    }
+
+    main.main{
+        padding-top: 92px;
+    }
+
+    .section-revision{
+        section.tatakelola_section{
+            .col-lg-4.col-md-6{
+                margin-bottom: 24px;
+                padding: 0 12px;
+                .generalbox{
+                    padding: 24px 16px;
+                }
+            }
+        }
+        section.pengadaan_list{
+            ul.nav.nav-tabs{
+                li.nav-item{
+                    width: 35%;
+                    a.nav-link{
+                        min-width: auto;
+                        display: block;
+                    }
+                }
+                li.nav-item.filter{
+                    width: 60px;
+                }
+            }
+        }
+    }
+
+    footer.footer{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .home{
+        section.home_chart{
+            .home_chart-box.month{
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+                h2{
+                }
+                .kwh{
+                    font-size: 28px;
+                }
+                ul{
+                    li{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .home{
+        section.news{
+            padding-bottom: 100px;
+            .col-lg-4.col-md-6{
+                padding-top: 16px;
+                padding-bottom: 16px;
+            }
+        }
+    }
+
+    .laporan,
+    .tatakelola{
+        .masthead_small{
+            .masthead_small-text{
+                padding-top: 17px;
+                padding-bottom: 17px;
+                h1{
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+
+    .section-revision{
+        .masthead_small {
+            .masthead_small-text{
+                padding-top: 17px;
+                padding-bottom: 17px;
+                h1{
+                    font-size: 28px;
+                }
+            }
+        }
+        section.profil_komisaris {
+        .row.justify-content-center {
+            .profil_komisaris-wrap {
+                h2 {
+                    margin-bottom: 10px;
+                }
+    
+                .col-lg-3.col-md-6 {
+                    width: 50%;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+    
+                    .box-text {
+                        max-width: 90%;
+    
+                        .name {
+                            font-size: 24px;
+                        }
+    
+                        .pos {
+                            font-size: 16px;
+                        }
+                    }
+                }
+    
+                .box-komisaris {
+                    .box-img {
+                        img{
+                            border-radius: 56px;
+                        }
+                    }
+    
+                    .box-text {
+                        margin-left: 0;
+                        margin-top: -65px;
+                        min-width: 87%;
+                    }
+                }
+            }
+        }
+    }
+    }
+
+    .section-1-login {
+        height: 100vh;
+
+        .col-md-5.overflow-hide {
+            overflow: hidden;
+            border-top-right-radius: 50px;
+
+            .relative.image-container-login {
+                height: 100vh;
+                width: 100vw;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .row {
+            height: 100%;
+        }
+
+        .login-container {
+            max-width: 480px;
+            width: 100%;
+            align-self: center;
+            margin: 0 auto;
+
+            h3.login-title {
+                font-size: 30px;
+                margin-bottom: 42px;
+            }
+
+            input.form-control {
+                padding: 28px 20px;
+                border-radius: 12px;
+                margin-bottom: 36px;
+            }
+
+            .button-areas {
+                display: flex;
+                align-items: center;
+
+                a {
+                    font-size: 15px;
+                    color: red;
+                    font-weight: 600;
+                }
+
+                button {
+                    font-size: 14px;
+                    color: white;
+                    padding: 14px 48px;
+                    margin-left: auto;
+                    background: #FD9840;
+                    border: none;
+                    border-radius: 25px;
+                }
+            }
+        }
+
+        .login-panel {
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+
+            .website-logo {
+                display: flex;
+                position: absolute;
+                right: 28px;
+                top: 54px;
+                align-items: center;
+
+                p {
+                    margin-bottom: 0;
+                    padding-right: 8px;
+                }
+
+                img {
+                    width: 141px;
+                    margin-top: -25px;
+                }
+            }
+        }
+    }
+
+    .footer{
+        .footer_menu{
+            .row{
+                display: flex;
+                .col{
+                    flex-grow: 0;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 440px) {
+    section h2{
+        font-size: 24px;
+    }
+    h1{
+        font-size: 24px;
+    }
+
+    .container{
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .home {
+        padding-bottom: 60px;
+        .home_chart-box.year:before{
+            display: none;
+        }
+        .home_chart-box.month:before{
+            display: none;
+        }
+        section.home_chart{
+            padding-bottom: 40px;
+            .home_chart-box.month{
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 30px;
+                h2{
+                    font-size: 20px;
+                    margin-bottom: 16px;
+                }
+                .kwh{
+                    font-size: 30px;
+                    margin-bottom: 32px;
+                }
+                ul{
+                    li{
+                        font-size: 15px;
+                        margin-bottom: 8px;
+                    }
+                }
+            }
+        }
+        section.home_career{
+            padding-bottom: 40px;
+            .container{
+                padding: 24px;
+            }
+        }
+        .home_chart{
+            .home_chart-box.month{
+                padding: 24px;
+                margin-bottom: 24px;
+                h2{
+                    // text-align: center;
+                }
+            }
+            .home_chart-box.year{
+                padding: 24px;
+                h2{
+                    text-align: left;
+                }
+            }
+            .container{
+                .col-md-5.col-lg-4.pr-3{
+                    padding-right: 5px !important;
+                    padding: 5px;
+                    margin-bottom: 8px;
+                    .home_chart-box.month{
+                        padding: 30px;
+                        border-radius: 16px;
+                    }
+                }
+                .col-md-7.col-lg-8.pl-3.no-padding-right{
+                    padding-left: 5px !important;
+                    padding: 5px;
+                    .home_chart-box.year{
+                        padding: 30px;
+                        border-radius: 16px;
+                    }
+                }
+            }
+        }
+        section.news{
+            padding-bottom: 180px;
+            .col-lg-4.col-md-6{
+                padding-top: 16px;
+                padding-bottom: 16px;
+            }
+            h2{
+                margin-bottom: 20px;
+            }
+        }
+        section.home_career{
+            h2{
+                margin-bottom: 24px;
+            }
+        }
+
+        section.home_gallery{
+            margin-bottom: -96px;
+            padding-bottom: 0;
+            h2{
+                margin-bottom: 24px;
+            }
+        }
+
+        .home_masthead {
+            margin-bottom: 24px;
+            .slider-home.owl-carousel.owl-loaded.owl-drag {
+                .slider_item {
+                    .slider_item-text {
+                        width: 50%;
+                        border-radius: 0 30px 0 0;
+                        padding: 8px 25px;
+
+                        p {
+                            font-size: 12px;
+                        }
+
+                    }
+                }
+
+            }
+
+            .home_masthead-navigation {
+                font-size: 12px;
+                right: 13%;
+                bottom: 15px;
+                pointer-events: none;
+            }
+
+            .owl-nav{
+                right: 5%;
+                bottom: 10px;
+                width: 45px;
+                height: 45px;
+                button.owl-next{
+                    width: 45px;
+                    height: 45px;
+                    span.icon.next{
+                        background-position: center;
+                        width: 45px;
+                        height: 45px;
+                        background-repeat: no-repeat;
+                        background-size: 35px;
+                    }
+                }
+            }
+
+            .home_masthead-navigation .slider-index {
+                padding: 5px 15px;
+                pointer-events: none;
+                border-radius: 10px;
+            }
+        }
+        section.home-welcomemsg{
+            h2{
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        .home_career{
+            .owl-nav{
+                display: none;
+            }
+        }
+        .news{
+            .col-lg-4.col-md-6{
+                .news_box{
+                    .news_box-img{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section.home_gallery{
+        .slider.no-slider.owl-carousel.owl-loaded.owl-drag{
+            transform: scale(1);
+            min-height: unset;
+            .owl-stage{
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+            .slider-item{
+                transform: scale(0.8);
+            }
+            .owl-item{
+                margin-top: -20px !important; 
+            }
+        }
+        .slider:before{
+            top: 13%;
+        }
+    }
+
+    .laporan,
+    .tatakelola{
+        .section-1-gallery{
+            .container.mx-auto{
+                section.photo-area{
+                    h2{
+                        margin-bottom: 24px !important;
+                    }
+                }
+                section.video-area.mt-4.pt-4{
+                    padding-bottom: 200px;
+                    .news_box-img{
+                        margin-bottom: 20px;
+                    }
+                    .date{
+                        margin-bottom: 12px;
+                        font-size: 15px;
+                    }
+                    .title{
+                        max-width: 550px;
+                        h3{
+                            font-size: 18px;
+                            color: @color-blue-1;
+                        }
+                    }
+                }
+            }
+        }
+        .d-flex.search-bar-section.mb-5{
+            margin-bottom: 24px !important;
+            .serach-bar-area.relative.w-100{
+                input{
+                    border-radius: 15px;
+                    padding-left: 30px;
+                    padding-right: 39px;
+                }
+                svg{
+                    right: 15px;
+                }
+            }
+        }
+        section.section-1-contact-us {
+            .container.mx-auto {
+                padding-bottom: 200px;
+                .col-md-6{
+                    padding-right: 40px;
+                    padding-left: 40px;
+                }
+                img.contact-us-image {
+                    width: 100%;
+                    margin-bottom: 12px;
+                    border-radius: 16px;
+                }
+
+                .contact-us-information {
+                    font-size: 15px;
+                    white-space: pre-line;
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+
+                .contact-us-link {
+                    padding-left: 0;
+                    padding-right: 0;
+                    display: inline-block;
+                    margin-bottom: 20px;
+                    h3 {
+                        text-decoration: underline;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        .masthead_small{
+            margin-bottom: 40px;
+            max-width: 90%;
+            background-size: 100% 100%;
+            .masthead_small-text{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                ul{
+                    li{
+                        font-size: 10px;
+                    }
+                }
+                h1{
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+
+    .section-revision{
+        .masthead_small{
+            margin-bottom: 40px;
+            max-width: 90%;
+            padding-bottom: 0;
+            background-size: 100% 100%;
+            .masthead_small-text{
+                padding-top: 15px;
+                padding-bottom: 10px;
+                .breadcrumbs{
+                    margin-bottom: 0;
+                }
+                ul{
+                    li{
+                        font-size: 10px;
+                        text-transform: uppercase;
+                    }
+                }
+                h1{
+                    font-size: 24px;
+                }
+            }
+        }
+        section.profil_komisaris{
+            .row.justify-content-center{
+                .profil_komisaris-wrap{
+                    h2{
+                        margin-bottom: 10px;
+                    }
+                    .col-lg-3.col-md-6{
+                        width: 50%;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        .box-text{
+                            max-width: 90%;
+                            .name{
+                                font-size: 16px;
+                            }
+                            .pos{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    .box-komisaris{
+                        .box-img{
+                            img{
+                                border-radius: 30px;
+                            }
+                        }
+                        .box-text{
+                            margin-left: 0;
+                            margin-top: -65px;
+                            min-width: 87%;
+                        }
+                    }
+                }
+            }
+        }
+        section.sosial_section{
+            padding-bottom: 40px;
+            h2{
+                font-size: 24px;
+                margin-bottom: 28px;
+            }
+        }
+        section.sosial_table{
+            h2{
+                font-size: 24px;
+                text-align: center;
+                margin-bottom: 28px;
+            }
+            .row.justify-content-center{
+                .table-responsive{
+                    table.table.table-striped.pengadaan_list-table{
+                        td{
+                            vertical-align: middle;
+                            font-size: 12px;
+                            padding: 8px 8px;
+                        }
+                        td.table-title{
+                            letter-spacing: -0.3px;
+                            padding-left: 12px;
+                            max-width: 200px;
+                            a.table-link{
+                                text-align: left;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section.tatakelola_section{
+            padding-bottom: 40px;
+            .row.justify-content-center{
+                .col-lg-8{
+                    p{
+                        font-size: 12px;
+                        margin-bottom: 16px;
+                    }
+                }
+            }
+            
+            .col-lg-4.col-md-6{
+                margin-bottom: 16px;
+            }
+        }
+
+        section.karir_type{
+            padding-bottom: 40px;
+            .d-flex.search-bar-section.mb-5{
+                margin-bottom: 40px !important;
+            }
+            .box-career{
+                .text{
+                    max-width: 90%;
+                }
+            }
+        }
+        section.karir_recent{
+            h2{
+                font-size: 24px;
+            }
+            .card{
+                button.btn.btn-link{
+                    padding: 8px 0;
+                    padding-right: 44px;
+                    font-size: 16px;
+                }
+                .collapse,
+                .collapsing{
+                    p{
+                        font-size: 14px;
+                    }
+                    a.btn.btn_primary{
+                        padding: 8px 32px;
+                        svg{
+                            margin-top: -4px;
+                        }
+                    }
+                }
+            }
+        }
+
+        section.pengadaan_list{
+            ul.nav.nav-tabs{
+                margin-left: 0;
+                margin-right: 0;
+                padding-left: 12px;
+                padding-right: 12px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                li.nav-item{
+                    // width: 100%;
+                    width: 128px;
+                    padding-left: 0;
+                    padding-right: 0;
+                    margin-bottom: 12px;
+                    .nav-link{
+                        min-width: auto;
+                        width: 100%;
+                    }
+                }
+                li.nav-item.filter{
+                    width: 35px;
+                }
+            }
+            .tab-content{
+                padding-top: 40px;
+            }
+            .pagination-box{
+                justify-content: center;
+            }
+        }
+
+        section.sosial_table{
+            .pagination-box{
+                justify-content: center;
+            }
+        }
+
+        section.home_chart{
+            
+        }
+
+        section.profil_visimisi{
+            padding-bottom: 40px;
+            .generalbox{
+                .col-md-6{
+                    h2{
+                        margin-top: 12px;
+                    }
+                    p{
+                        margin-bottom: 12px;
+                    }
+                }
+            }
+        }
+
+        section.profil_businessprocess{
+            padding-bottom: 40px;
+            h2{
+                margin-bottom: 28px;
+            }
+        }
+
+        section.profil_text{
+            padding-bottom: 40px;
+            article{
+                p{
+                    text-align: justify;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        section.profil_location{
+            padding-bottom: 28px;
+            h2{
+                margin-bottom: 28px;
+            }
+            .profil_location-adress{
+                padding: 55px 35px 35px;
+                position: relative;
+                flex-wrap: wrap;
+                .icon{
+                    margin-top: -108px;
+                    width: 100%;
+                }
+            }
+        }
+
+        section.profil_plan{
+            .profil_plan-box{
+                padding: 53px 39px;
+                .inner-box{
+                    background: transparent;
+                    padding: 0;
+                    p{
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+
+        section.home-welcomemsg{
+            background-size: 50%;
+            padding-bottom: 40px;
+            button.readmore-button.readmore{
+                // display: block;
+                padding: 0;
+                background: transparent;
+                border: none;
+            }
+            .mobile-hidden{
+                display: none;
+            }
+            .hidden{
+                display: none;
+            }
+            .block{
+                display: block;
+            }
+            .readmore{
+                display: block !important;
+            }
+        }
+
+        section.profil_saham{
+            h2{
+                font-size: 32px;
+            }
+            img{
+                width: 80%;
+            }
+        }
+
+        section.home_career{
+            .container{
+                padding: 0;
+                overflow: hidden;
+            }
+            .slider-career{
+                width: 180vw;
+                margin-left: -40vw;
+                margin-bottom: 52px;
+                .owl-stage-outer{
+                    width: 150vw;
+                    // transform: scale(2);
+                    .owl-item{
+                        // transform: scale(0.5);
+                        // width: 200px !important;
+                        .slider-item{
+                            // width: 200px !important;
+                            .icon{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    .laporan.section-revision{
+        section.pengadaan_list{
+            padding-bottom: 200px;
+        }
+    }
+
+    .section-1-login {
+        height: 100vh;
+
+        .col-md-5.overflow-hide {
+            overflow: hidden;
+            border-top-right-radius: 0;
+
+            .relative.image-container-login {
+                height: 100vh;
+                width: 100vw;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .col-md-7.px-3 {
+            position: absolute;
+            background: white;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 65%;
+        }
+
+        .row {
+            height: 100%;
+        }
+
+        .login-container {
+            max-width: 480px;
+            width: 100%;
+            align-self: center;
+            margin: 0 auto;
+
+            h3.login-title {
+                font-size: 30px;
+                margin-bottom: 42px;
+            }
+
+            input.form-control {
+                padding: 28px 20px;
+                border-radius: 12px;
+                margin-bottom: 36px;
+            }
+
+            .button-areas {
+                display: flex;
+                align-items: center;
+
+                a {
+                    font-size: 15px;
+                    color: red;
+                    font-weight: 600;
+                }
+
+                button {
+                    font-size: 14px;
+                    color: white;
+                    padding: 14px 48px;
+                    margin-left: auto;
+                    background: #FD9840;
+                    border: none;
+                    border-radius: 25px;
+                }
+            }
+        }
+
+        .login-panel {
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+
+            .website-logo {
+                display: flex;
+                position: absolute;
+                right: 28px;
+                top: 54px;
+                align-items: center;
+
+                p {
+                    margin-bottom: 0;
+                    padding-right: 8px;
+                }
+
+                img {
+                    width: 141px;
+                    margin-top: -25px;
+                }
+            }
+        }
+    }
+
+    .footer{
+        .footer_menu{
+            .row{
+                display: block;
+                .col{
+                    margin-bottom: 12px;
+                    h4{
+                        color: #FD9840;
+                    }
+                }
+            }
+        }
+        .footer_cta{
+            .row.justify-content-around.w-100{
+                margin: 0;
+                .footer_cta-form{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+    .home_career h2{
+        font-size: 24px;
+    }
+}

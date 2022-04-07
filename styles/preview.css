@@ -1,0 +1,60 @@
+/* Fonts */
+@font-face { font-family: "Lato"; font-display: swap; src: local("Lato"); src: url("../fonts/lato-regular.eot"); src: url("../fonts/lato-regular.eot#iefix") format("embedded-opentype"), url("../fonts/lato-regular.woff2") format("woff2"), url("../fonts/lato-regular.woff") format("woff"), url("../fonts/lato-regular.ttf") format("truetype"), url("../fonts/lato-regular.svg") format("svg"); font-style: normal; font-weight: 400; }
+
+@font-face { font-family: "Lato Medium"; font-display: swap; src: local("Lato Medium"); src: url("../fonts/lato-bold.eot"); src: url("../fonts/lato-bold.eot#iefix") format("embedded-opentype"), url("../fonts/lato-bold.woff2") format("woff2"), url("../fonts/lato-bold.woff") format("woff"), url("../fonts/lato-bold.ttf") format("truetype"), url("../fonts/lato-bold.svg") format("svg"); font-style: normal; font-weight: 400; }
+
+@font-face { font-family: "Lato Bold"; font-display: swap; src: local("Lato Bold"); src: url("../fonts/lato-black.eot"); src: url("../fonts/lato-black.eot#iefix") format("embedded-opentype"), url("../fonts/lato-black.woff2") format("woff2"), url("../fonts/lato-black.woff") format("woff"), url("../fonts/lato-black.ttf") format("truetype"), url("../fonts/lato-black.svg") format("svg"); font-style: normal; font-weight: 400; }
+
+body { font-family: "Lato", sans-serif; }
+
+.preview { min-height: 100vh; padding: 40px 0; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; font-size: 16px; line-height: 24px; background: #FAFBFD; position: relative; }
+
+.preview .card-wrap { min-width: 300px; background-color: #FFF; border-radius: 3px; overflow: hidden; position: relative; z-index: 2; }
+
+.preview .card-wrap .card-header { padding: 0; margin-bottom: 0; background-color: transparent; border: 0; }
+
+.preview .card-wrap .card-body { padding: 0; margin: 0; background-color: #FFF; overflow: hidden; }
+
+.preview .card-wrap .card-label { text-align: center; text-transform: uppercase; background: #181818; color: #FFF; border: 1px solid #696969; border-bottom: 0; font-size: 10px; line-height: 24px; letter-spacing: 5px; padding: 7px 20px; font-weight: 600; border-radius: 3px 3px 0 0; }
+
+.preview .card-wrap .card-title { text-align: center; padding: 0; border: 1px solid #696969; border-top: 0; padding: 20px 0; margin: 0; background: #FFF; }
+
+.preview .card-wrap .card-title img { max-width: 220px; }
+
+.preview .card-wrap .card-list { padding: 0; margin: 0; list-style: none; background-color: #FFF; border: 1px solid #696969; border-top: 0; border-radius: 0 0 3px 3px; }
+
+.preview .card-wrap .card-list > .card-item { position: relative; width: 100%; margin: 0; }
+
+.preview .card-wrap .card-list > .card-item.disabled { pointer-events: none; opacity: 0.5; }
+
+.preview .card-wrap .card-list > .card-item > a { display: block; color: #1C1C1C; padding: 12px 26px; width: 100%; background-color: transparent; transition: all .5s; position: relative; }
+
+.preview .card-wrap .card-list > .card-item > a:before { content: ""; display: block; width: 0; height: 100%; position: absolute; top: 0; left: 0; background: #007AFF; z-index: 1; opacity: 0; transition: all .3s; }
+
+.preview .card-wrap .card-list > .card-item > a span { position: relative; z-index: 2; }
+
+.preview .card-wrap .card-list > .card-item > a i { float: right; line-height: 24px; -webkit-transform: rotate(-90deg); transform: rotate(-90deg); transition: -webkit-transform .3s; transition: transform .3s; transition: transform .3s, -webkit-transform .3s; }
+
+.preview .card-wrap .card-list > .card-item:hover > a { color: #181818; text-decoration: none; position: relative; }
+
+.preview .card-wrap .card-list > .card-item:hover > a:before { width: 100%; opacity: 0.1; }
+
+.preview .card-wrap .card-list > .card-item:hover > a i { -webkit-transform: rotate(0); transform: rotate(0); }
+
+.preview .card-wrap .card-list > .card-item.has-child > a:after { content: ""; display: block; position: absolute; width: 20px; height: 20px; top: calc(50% - 10px); right: 26px; background: url(../images/ic-dropdown.svg) no-repeat center; background-size: contain; -webkit-transform: none; transform: none; transition: all .3s ease; }
+
+.preview .card-wrap .card-list > .card-item.open > a:after { -webkit-transform: rotate(180deg); transform: rotate(180deg); }
+
+.preview .card-wrap .card-list > .card-item.open > .card-sub-list { padding: 10px 0 10px; border-bottom: 1px solid #e2e2e2; }
+
+.preview .card-wrap .card-list > .card-item.open > .card-sub-list > .card-item { max-height: 99px; padding: 0 26px; opacity: 1; visibility: visible; }
+
+.preview .card-wrap .card-list .card-sub-list { padding: 0; margin: 0; list-style: none; background-color: #252525; transition: all .3s; position: relative; }
+
+.preview .card-wrap .card-list .card-sub-list > .card-item { width: 100%; padding: 0 10px; max-height: 0; padding: 0; opacity: 0; visibility: hidden; transition: max-height .5s, opacity .5s, padding .5s; }
+
+.preview .card-wrap .card-list .card-sub-list > .card-item > a { padding: 5px 10px; display: block; color: #1C1C1C; width: 100%; border: 1px solid transparent; background-color: transparent; border: 0; transition: all .5s; }
+
+.preview .card-wrap .card-list .card-sub-list > .card-item:hover > a { background-color: #181818; text-decoration: none; }
+
+/*# sourceMappingURL=preview.css.map */

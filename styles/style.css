@@ -178,6 +178,11 @@ footer .row .col-lg-9 .footer_menu .row .footer_menu-head {
 .section-1-login {
   height: 100vh;
 }
+
+.footer_bottom{
+  padding-bottom: 50px;
+}
+
 .section-1-login .col-md-5.overflow-hide {
   overflow: hidden;
   border-top-right-radius: 50px;
@@ -518,8 +523,11 @@ section.home_gallery .slider.no-slider.owl-carousel.owl-loaded.owl-drag .owl-sta
 }
 
 .header_wrap{
-  padding-bottom: 15px;
-  padding-top: 35px;
+  padding: 10px 0px;
+}
+
+.header_logo a{
+  margin-top: 0px;
 }
 
 main{
@@ -591,17 +599,14 @@ main{
 
 .footer_cta-form .form-group{
   border-radius: 2px!important;
-  margin-left: 30px;
+  margin-left: auto;
 }
 
 article{
   text-align: justify;
 }
 
-.header_menu{
-  margin-left: auto;
-  margin-right: 30px;
-}
+
 
 .tatakelola, .pengadaan, .sosial, .unit{
   padding-bottom: 30px;
@@ -615,7 +620,13 @@ article{
   /* padding-left: 20px; */
 
 }
+.footer_cta-img{
+  right: 140px;
+}
 
+.pagination-box{
+   margin-top: 20px;
+}
 
 .footer_cta-img{
   margin-bottom: -38px;
@@ -626,7 +637,7 @@ article{
 }
 
 footer .row .footer_cta-form .form-group button.send-cta{
-  right: 70px;
+  right: 40px;
   border-top-right-radius:4px ;
   border-bottom-right-radius:4px ;
 }
@@ -645,6 +656,9 @@ footer .row .footer_cta-form .form-group button.send-cta{
   .home section.home_gallery {
     width: 100vw;
     overflow: hidden;
+  }
+  .footer_cta-img{
+    margin-bottom: -35px;
   }
 }
 @media only screen and (max-width: 1300px) {
@@ -665,7 +679,7 @@ footer .row .footer_cta-form .form-group button.send-cta{
     text-align: center;
   }
   .laporan section.section-1-contact-us .container.mx-auto {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
   }
   .laporan section.section-1-contact-us .container.mx-auto img.contact-us-image {
     width: 100%;
@@ -744,6 +758,9 @@ footer .row .footer_cta-form .form-group button.send-cta{
   section.profil_komisaris .row.justify-content-center .profil_komisaris-wrap h2 {
     margin-bottom: 10px;
   }
+  .footer_cta-img{
+    margin-bottom: -40px;
+  }
   section.profil_komisaris .row.justify-content-center .profil_komisaris-wrap .col-lg-3.col-md-6 {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -800,6 +817,19 @@ footer .row .footer_cta-form .form-group button.send-cta{
   }
 }
 @media only screen and (max-width: 770px) {
+  .footer_cta-form .form-control {
+    min-height: 40px;
+    width: 100%;
+    border-radius: 4px;
+  }
+  .footer_cta-form .form-group{
+    max-width: 100%;
+  }
+  footer .row .footer_cta-form .form-group button.send-cta{
+    right: 0px;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+  }
   .home section.home_chart .home_chart-box.month {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
@@ -937,6 +967,7 @@ footer .row .footer_cta-form .form-group button.send-cta{
   }
 }
 @media only screen and (max-width: 440px) {
+
   section h2 {
     font-size: 24px;
   }
@@ -1009,7 +1040,7 @@ footer .row .footer_cta-form .form-group button.send-cta{
     border-radius: 16px;
   }
   .home section.news {
-    padding-bottom: 180px;
+    padding-bottom: 100px;
   }
   .home section.news .col-lg-4.col-md-6 {
     padding-top: 16px;
@@ -1042,30 +1073,30 @@ footer .row .footer_cta-form .form-group button.send-cta{
     padding: 5px;
   }
   .home .home_masthead .home_masthead-navigation {
-    font-size: 12px;
+    font-size: 10px;
     right: 10%!important;
     bottom: 15px;
     pointer-events: none;
   }
   .home .home_masthead .owl-nav {
-    right: 2%;
+    right: 10px;
     bottom: 10px;
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
   }
   .home .home_masthead .owl-nav button.owl-next {
-    width: 45px;
-    height: 45px;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
   }
   .home .home_masthead .owl-nav button.owl-next span.icon.next {
     background-position: center;
-    width: 45px;
-    height: 45px;
-    background-repeat: no-repeat;
-    background-size: 35px;
+    width: 28px;
+    height: 28px;
   }
   .home .home_masthead .home_masthead-navigation .slider-index {
-    padding: 5px 15px;
+    padding: 0px 10px;
+    padding-right: 20px;
     pointer-events: none;
     border-radius: 10px;
   }
@@ -1141,7 +1172,7 @@ footer .row .footer_cta-form .form-group button.send-cta{
   }
   .laporan section.section-1-contact-us .container.mx-auto,
   .tatakelola section.section-1-contact-us .container.mx-auto {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
   }
   .laporan section.section-1-contact-us .container.mx-auto .col-md-6,
   .tatakelola section.section-1-contact-us .container.mx-auto .col-md-6 {
